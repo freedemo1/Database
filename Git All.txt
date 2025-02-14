@@ -1,0 +1,556 @@
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder
+$
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder
+$
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder
+$ git init
+Initialized empty Git repository in C:/Users/vaish/OneDrive/Desktop/New folder/.
+git/
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git remote add origin https://github.com/freedemo1/Database.git~
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git checkout -b new_branch
+Switched to a new branch 'new_branch'
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git add .
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git commit -m "first commit"
+[new_branch (root-commit) 51e5099] first commit
+ 1 file changed, 501 insertions(+)
+ create mode 100644 MYSQL COMPLETE riti kumari.txt
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git push origin new_branch
+remote: Repository not found.
+fatal: repository 'https://github.com/freedemo1/Database.git~/' not found
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git push origin new_branch
+remote: Repository not found.
+fatal: repository 'https://github.com/freedemo1/Database.git~/' not found
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git remote add origin https://github.com/freedemo1/Database.git
+error: remote origin already exists.
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git remote add origin https://github.com/freedemo1/Database.git~
+error: remote origin already exists.
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git push origin new_branch
+remote: Repository not found.
+fatal: repository 'https://github.com/freedemo1/Database.git~/' not found
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git remote -v
+origin  https://github.com/freedemo1/Database.git~ (fetch)
+origin  https://github.com/freedemo1/Database.git~ (push)
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git remote rm origin
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git remote add origin https://github.com/freedemo1/Database.git
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ git push origin new_branch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.76 KiB | 963.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'new_branch' on GitHub by visiting:
+remote:      https://github.com/freedemo1/Database/pull/new/new_branch
+remote:
+To https://github.com/freedemo1/Database.git
+ * [new branch]      new_branch -> new_branch
+
+vaish@shreya MINGW64 ~/OneDrive/Desktop/New folder (new_branch)
+$ history
+    1  ls -la
+    2  mkdir data
+    3  ls
+    4  cd data/
+    5  ls
+    6  touch hello
+    7  touch galilio.txt
+    8  ls
+    9  touch heyhelllo.html
+   10  ls -la
+   11  ls -l
+   12  git init .
+   13  clear
+   14  git remote add awscc https://git-codecommit.us-east-2.amazonaws.com/v1/repos/users
+   15  git add .
+   16  git commit -m 'initial import'
+   17   git config --global user.email "shashimse@gmail.com"
+   18   git config --global user.name "Shashi8877"
+   19  git commit -m 'initial import'
+   20  git status
+   21  git push awscc master
+   22  ls
+   23  clear
+   24  git status
+   25  git log
+   26  git --version
+   27  git tag
+   28  ls
+   29  clear
+   30  clear
+   31  git --version
+   32  intellij
+   33  ls
+   34  ls
+   35  ls
+   36  cd repository/
+   37  ls
+   38  cd ..
+   39  ls -ltr
+   40  cd repository/
+   41  ls
+   42  cd  cd commons-lang/commons-lang/
+   43  ls
+   44  cd common-lang/
+   45  cd /common-lang
+   46  cd commons-lang
+   47  ls
+   48  cd commons-lang/
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd ..
+   53  cd ..
+   54  ls
+   55  vi Helloworl.java
+   56  ls
+   57  javac Helloworld.java
+   58  vi Helloworl.java
+   59  javac  Helloworl.java
+   60  vi Helloworl.java
+   61  javac  Helloworl.java
+   62  ls
+   63  java Helloworl
+   64  cd ~/.m2
+   65  ls
+   66  jar cf myjar.jar Helloworl.class
+   67  lls
+   68  ls
+   69  java -classpath myjar.jar Helloworl
+   70  python --version
+   71  who
+   72  which
+   73  mvn dependancy:tree
+   74  mvn -U
+   75  mvn -U
+   76  mv ~/.m2/settings.xml ~/.m2/settings.xml.old
+   77  cd C:\Program Files\Git\bin\sh.exe
+   78  cd C:\Program Files\Git\binsh.exe
+   79  cd c
+   80  cd C
+   81  ls
+   82  cd /
+   83  ls
+   84  cd
+   85  ls
+   86  cd /c
+   87  ls
+   88  cd
+   89  cd /C
+   90  ls
+   91  cd \Program Files\Git\bin\sh.exe
+   92  cd \Program Files\Git\bincd \Program Files\Git\bin
+   93  cd \Program Files
+   94  cd Programs Files
+   95  cd /Program Files
+   96  cd /"Program Files"
+   97  cd  Program Files/
+   98  cd  /Program Files/
+   99  cd  \Program Files/
+  100  cd  \Program Files\
+  101  C:\Program Files\Git\bin\sh.exe
+  102  ls
+  103  cd  'Program Files'/
+  104  ls
+  105  cd  Git/
+  106  ls
+  107  cd bin/
+  108  ls
+  109  sh.exe*
+  110  sh.exe
+  111  sh.exe
+  112  sh.exe*
+  113  cd C:\Users\vaish\eclipse-workspace\Shashikant\maven-demo\
+  114  cd C:\Users\vaish\eclipse-workspace\Shashikant\maven-demo
+  115  cd C:\Users\vaish\eclipse-workspace\Shashikant\maven-demo/
+  116  cd /C:\Users\vaish\eclipse-workspace\Shashikant\maven-demo
+  117  ls
+  118  cd /users
+  119  ls
+  120  cd eclipse-workspace/
+  121  ls
+  122  cd Shashikant/
+  123  ls
+  124  cd maven-demo/
+  125  ll
+  126  mvn package
+  127  ls
+  128  pwd
+  129  clear
+  130  pwd
+  131  cd Downloadds/
+  132  ls
+  133  clear
+  134  pwd
+  135  ls
+  136  cd ..
+  137  ls
+  138  tree
+  139  cd Documents/
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd Desktop
+  144  ls
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd ..
+  149  ls
+  150  pwd
+  151  ls
+  152  cd Downloads/
+  153  ls
+  154  ls
+  155  ls
+  156  chmod 400 devops2021.pem
+  157  ec2-18-116-20-8.us-east-2.compute.amazonaws.com
+  158  ssh -i "devops2021.pem" ubuntu@ec2-18-116-20-8.us-east-2.compute.amazonaws.com
+  159  cd ..
+  160  cd ..
+  161  cd Downloads/
+  162  chmod 400 devops2021.pem
+  163  ssh -i "devops2021.pem" ubuntu@ec2-18-116-20-8.us-east-2.compute.amazonaws.com
+  164  git status
+  165  git clone https://github.com/shrikantb87/demo_project_triton_react.git
+  166  git pull origin main
+  167  git pull origin develop
+  168  git pull origin master
+  169  git pull origin initial-checkin-eact-demo-app
+  170  git fetch
+  171  fetch
+  172  git checkout initial-checkin-eact-demo-app
+  173  git status
+  174  git clone https://github.com/shrikantb87/triton-react-demo.git
+  175  git status
+  176  git status
+  177  clear
+  178  git status
+  179  git checkout "Changes-for-adding-newnavbar_and_horizontal-coarsal"
+  180  git checkout -b "Changes-for-adding-newnavbar_and_horizontal-coarsal"
+  181  git status
+  182  git push
+  183  git status
+  184  git status
+  185  git status
+  186  echo "# triton-react-demo" >> README.md
+  187  git init
+  188  git add README.md
+  189  git commit -m "first commit"
+  190  git branch -M main
+  191  git remote add origin https://github.com/shrikantb87/triton-react-demo.git
+  192  git push -u origin main
+  193  git push -u origin/main
+  194  git status
+  195  git add ..
+  196  git add .env
+  197  git add .gitignore
+  198  git add ..gitignore
+  199  git add .gitignore
+  200  git add package.json
+  201  git checkout -b feature-initial-checkin
+  202  git push main feature-initial-checkin
+  203  git push https://github.com/shrikantb87/triton-react-demo.git feature-initial-checkin
+  204  git push
+  205  git push  --set-upstream origin feature-initial-checkin
+  206  git commit
+  207  git status
+  208  git push
+  209  git status
+  210  git checkout feature/navbar-changes
+  211  git checkout -b feature-navbar-fetures-sections-updated
+  212  git push
+  213  git push --set-upstream origin feature-navbar-fetures-sections-updated
+  214  git commit "new changes"
+  215  git commit feature-navbar-fetures-sections-updated
+  216  git push
+  217  git commit "feature-navbar-fetures-sections-updated"
+  218  git commit -m "feature-navbar-fetures-sections-updated"
+  219  git commit -a "feature-navbar-fetures-sections-updated"
+  220  git commit -a
+  221  git commit "new changes" -a
+  222  git commit -a "some changes"
+  223  git commit -a origin/feature-navbar-fetures-sections-updated
+  224  git commit -m origin/feature-navbar-fetures-sections-updated
+  225  git status
+  226  git add .
+  227  git commit -m "new changes"
+  228  git push origin master
+  229  git push origin main
+  230  git push origin https://github.com/shrikantb87/triton-react-demo.git
+  231  git fetch
+  232  git push origin https://github.com/shrikantb87/triton-react-demo.git
+  233  git push origin main
+  234  git push
+  235  git clone https://github.com/academind/reactjs-navbar-drawer-demo.git
+  236  git status
+  237  git add .
+  238  git commit -m "home page enhancements"
+  239  git push
+  240  git add .
+  241  git status
+  242  git status
+  243  docker images
+  244  docker ps
+  245  ls
+  246  docker ps
+  247  ls
+  248  % vim .env
+  249  docker-compose up
+  250  ls -a
+  251  ls
+  252  docker-compose rm
+  253  docker-compose rm
+  254  docker-compose up
+  255  ls
+  256  cd ansible_home/
+  257  ls
+  258  ls -a
+  259  cd ./
+  260  ls
+  261  cd .
+  262  ls
+  263  cd ..
+  264  ls
+  265  docker ps
+  266  docker images
+  267  docker url
+  268  docker compose version
+  269  docker run -it --rm ubuntu bash
+  270  ls
+  271  ls -a
+  272  cd .
+  273  ls
+  274  ls -a
+  275  vim .env
+  276  docker compose version
+  277  docker-compose rm
+  278  docker-compose up
+  279  docker-compose restart
+  280  vim .env
+  281  mongosh
+  282  mongoimport persons.json -d contactData -c contacts --jsonArray
+  283  ls
+  284  mongosh
+  285  use contactData
+  286  mongosh
+  287  ls
+  288  clear
+  289  mkdir gitproject
+  290  cd gitproject/
+  291  ls
+  292  git init
+  293  ls
+  294  pwd
+  295  clear
+  296  ls
+  297  cd
+  298  touch index.html
+  299  ls
+  300  mv index.html about.html
+  301  ls
+  302  mv about.html index.html
+  303  ls
+  304  touch style.css
+  305  ls
+  306  alias g=git
+  307  g status
+  308  g status
+  309  git add .
+  310  g status
+  311  g reset
+  312  g status
+  313  git add index.html style.css
+  314  g status
+  315  g status
+  316  git rm --cached index.html
+  317  g status
+  318  c
+  319  clear
+  320  git add index.html
+  321  git commit -m "initial commit"
+  322  git config
+  323  git config --global user.name shashi
+  324  git config --global user.email shashimse@gmail.com
+  325  git config --global user.name
+  326  git commit -m "initial commit"
+  327  git add style.css
+  328  git commit -m "initial commit"
+  329  g status
+  330  git config --global user.name freedemo1
+  331  git config --global user.name
+  332  c
+  333  clear
+  334  g status
+  335  git status
+  336  git status
+  337  ls
+  338  git status
+  339  git status
+  340  git add index.html style.css
+  341  git status
+  342  git commit -m "Added Heading"
+  343  git status
+  344  git add script.js
+  345  git status
+  346  git commit -m "Add Js file"
+  347  g log
+  348  git log --oneline
+  349  git status
+  350  git add index.html
+  351  git status
+  352  git commit
+  353  git log --oneline
+  354  code ~/.gitconfig
+  355  git status
+  356  git add script.js
+  357  git status
+  358  git commit
+  359  git log --oneline
+  360  git config --global core.editor "code --wait"
+  361  alias c=clear
+  362  c
+  363  g log --oneline
+  364  git show HEAD
+  365  git show 5f1b02a
+  366  git show HEAD~1
+  367  git status
+  368  git status
+  369  git checkout script.js
+  370  git status
+  371  git checkout *
+  372  g log --oneline
+  373  git checkout 514524f
+  374  g log --oneline
+  375  git checkout master
+  376  g log --oneline
+  377  git checkout 514524f
+  378  git status
+  379  git add style.css
+  380  git status
+  381  git commit -m "Test Commit"
+  382  g log --oneline
+  383  git checkout master
+  384  g log --oneline
+  385  git checkout 514524f
+  386  g log --oneline
+  387  git checkout master
+  388  g log --oneline
+  389  g log --oneline
+  390  git revert 9ae85fe
+  391  g log --oneline
+  392  git add index.html
+  393  git status
+  394  git commit -m "Added Navigation"
+  395  g log --oneline
+  396  git add script.js
+  397  git commit -m "Created Function"
+  398  g log --oneline
+  399  git reset --mixed 8efe19d
+  400  g log --oneline
+  401  git status
+  402  git checkout .
+  403  git status
+  404  g log --oneline
+  405  git reset --soft 9ae85fe
+  406  g log --oneline
+  407  git status
+  408  git reset .
+  409  git status
+  410  git checkout .
+  411  g log --oneline
+  412  git reset --hard 8cf375d
+  413  git status
+  414  g log --oneline
+  415  git status
+  416  git status
+  417  git rm -r --cached .
+  418  git status
+  419  git reset .
+  420  git status
+  421  git checkout .
+  422  git status
+  423  git init
+  424  git add .
+  425  git commit -am "initial commit project code"
+  426  git remote add origin https://github.com/freedemo1/React-Course.git
+  427   git remote -v
+  428  git push -u origin master
+  429  git remote add origin https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git
+  430  git remote -v
+  431  git remote add origin https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git
+  432  git remote set-url origin https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git~
+  433  git remote -v
+  434  git push -u origin master
+  435  git push -f origin master https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git~
+  436  git push -f origin master
+  437  git push -f origin master
+  438  git init
+  439  git add .
+  440  git commit -am "initial commit react code images"
+  441   git remote add origin https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git
+  442  git remote -v
+  443  git push -u origin main
+  444  git push -u origin master
+  445  git push -u origin master
+  446  git remote -v
+  447  git push -u origin master
+  448  git pull https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git~
+  449  git pull https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git
+  450  git push -u origin master
+  451  git push -u origin master
+  452  git push -f origin master
+  453  git init
+  454  git add .
+  455  git commit -am "initial commit new project code"
+  456  git remote add origin
+  457  git remote add origin https://github.com/freedemo1/Employee-Management-System-Spring-Boot-React-MySQL-.git
+  458   git remote -v
+  459  git push -f origin master
+  460  git init
+  461  git remote add origin https://github.com/freedemo1/Database.git~
+  462  git checkout -b new_branch
+  463  git add .
+  464  git commit -m "first commit"
+  465  git push origin new_branch
+  466  git push origin new_branch
+  467  git remote add origin https://github.com/freedemo1/Database.git
+  468  git remote add origin https://github.com/freedemo1/Database.git~
+  469  git push origin new_branch
+
+check existing branch-----
+  470  git remote -v
+
+  471  git remote rm origin
+  472  git remote add origin https://github.com/freedemo1/Database.git
+  473  git push origin new_branch
+  474  history
